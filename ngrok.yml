@@ -1,0 +1,9 @@
+version: "2"
+authtoken: 2zEi6fVAtfQeR3m5TidFMgTGa1U_4md94K1Xnmu67eV5Kx6MU  # <--- Paste your token here
+tunnels:
+  backend:
+    addr: 8000
+    proto: http
+  frontend:
+    addr: 3000
+    proto: http
